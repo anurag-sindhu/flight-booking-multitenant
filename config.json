@@ -15,7 +15,7 @@
         "start": 1,
         "end": 8
     },
-    "redisTtlDays": 10,
+    "redisTtlDays": 2,
     "maxTrackedPrice": 15000,
     "routes": [
         {
@@ -23,6 +23,12 @@
             "destination": "BLR"
         }
     ],
-    "departureDates": ["2026-11-15", "2026-11-16", "2026-11-17"],
-    "notificationChannels": ["slack"]
+    "departureDates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+    ],
+    "notificationChannels": [
+        "slack"
+    ]
 }
