@@ -8,7 +8,6 @@
             "type": "node",
             "request": "launch",
             "name": "Run App",
-            "envFile": "${workspaceFolder}/.env",
             "skipFiles": ["<node_internals>/**"],
             "runtimeExecutable": "/opt/homebrew/bin/node",
             "program": "${workspaceFolder}/index.js"

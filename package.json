@@ -4,7 +4,7 @@
     "description": "Flight price monitor across booking platforms with alerts via the tmrw notifications service",
     "main": "index.js",
     "scripts": {
-        "start": "node --env-file=.env index.js",
+        "start": "node index.js",
         "pretty": "prettier --write \"**/*.{js,json}\""
     },
     "author": "Anurag",
@@ -17,6 +17,6 @@
         "prettier": "^2.4.0"
     },
     "engines": {
-        "node": ">=20.6"
+        "node": ">=20.12"
     }
 }

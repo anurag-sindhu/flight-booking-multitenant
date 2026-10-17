@@ -4,7 +4,7 @@ Polls flight fare calendars on several booking sites every 5–10 minutes and se
 
 ## Setup
 
-Requires Node ≥ 20.6 and (optionally) Redis. Without Redis, price baselines live in memory and reset on restart.
+Requires Node ≥ 20.12 and (optionally) Redis. Without Redis, price baselines live in memory and reset on restart.
 
 ```bash
 npm install

@@ -1,3 +1,5 @@
+process.loadEnvFile(`${__dirname}/.env`);
+
 const rootConfig = require("./config.json");
 const redis = require("./lib/redis");
 const monitor = require("./lib/monitor");
