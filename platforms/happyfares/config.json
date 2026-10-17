@@ -1,0 +1,40 @@
+{
+    "url": "https://www.happyfares.in/WebApiServiceV1/FlightSearch/LowFareDatePicker",
+    "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "en-US,en;q=0.9,es;q=0.8,pt;q=0.7,hi;q=0.6",
+        "content-type": "application/json",
+        "origin": "https://www.happyfares.in",
+        "referer": "https://www.happyfares.in/",
+        "sec-ch-ua": "\"Chromium\";v=\"148\", \"Google Chrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+    },
+    "searchBody": {
+        "Header": {
+            "Appversion": "1.0.0",
+            "ChannelId": "3",
+            "AppKey": "",
+            "CompanyId": "1002",
+            "DeviceId": "",
+            "IMEINumber": "",
+            "IPAddress": "",
+            "RetailerId": "RMAA00000",
+            "SubRetailerId": "RMAA0000000",
+            "OperatorId": "1",
+            "MobileNumber": "",
+            "CustomerMobileNumber": "",
+            "Customer_GST": "",
+            "Mobile_App": false,
+            "CheckerMaker": "",
+            "MobileISDCode": "91"
+        },
+        "TravelDate": "12/08/2026",
+        "Type": 0,
+        "DoubleMonth": "8~2026,9~2026"
+    }
+}

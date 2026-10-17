@@ -1,0 +1,22 @@
+{
+    "name": "flight-booking-multitenant",
+    "version": "1.0.0",
+    "description": "Flight price monitor across booking platforms with alerts via the tmrw notifications service",
+    "main": "index.js",
+    "scripts": {
+        "start": "node --env-file=.env index.js",
+        "pretty": "prettier --write \"**/*.{js,json}\""
+    },
+    "author": "Anurag",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.13.5",
+        "redis": "^4.7.1"
+    },
+    "devDependencies": {
+        "prettier": "^2.4.0"
+    },
+    "engines": {
+        "node": ">=20.6"
+    }
+}

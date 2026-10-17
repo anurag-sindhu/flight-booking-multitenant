@@ -1,0 +1,24 @@
+{
+    "platforms": [
+        "agoda",
+        "skyscanner",
+        "cleartrip",
+        "yatra",
+        "goibibo",
+        "makemytrip",
+        "kayak",
+        "happyeasygo",
+        "paytm",
+        "googleflights"
+    ],
+    "redisTtlDays": 10,
+    "maxTrackedPrice": 15000,
+    "routes": [
+        {
+            "origin": "DEL",
+            "destination": "BLR"
+        }
+    ],
+    "departureDates": ["2026-11-15", "2026-11-16", "2026-11-17"],
+    "notificationChannels": ["slack"]
+}

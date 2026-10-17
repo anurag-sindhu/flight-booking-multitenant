@@ -1,0 +1,64 @@
+{
+    "url": "https://www.agoda.com/api/flights-bff/search/v1/flights",
+    "headers": {
+        "ag-bff-currency": "INR",
+        "ag-bff-flights-features": "FBFF-3-SEARCH:on,MigrateBookingUrlFormat:on",
+        "ag-bff-screen-size-class": "Desktop",
+        "ag-cid": "1844104",
+        "ag-language-id": "1",
+        "ag-language-locale": "en-in",
+        "ag-request-attempt": "1",
+        "content-type": "text/plain",
+        "origin": "https://www.agoda.com",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+    },
+    "searchBody": {
+        "pagination": {
+            "page": 1
+        },
+        "polling": {
+            "count": 1
+        },
+        "searchCriteria": {
+            "passengers": {
+                "adult": 1,
+                "child": 0,
+                "infant": 0
+            },
+            "trip": {
+                "outboundSlice": {
+                    "sliceFilter": {
+                        "cabinClasses": [],
+                        "carrier": {
+                            "exclude": [],
+                            "preferred": []
+                        }
+                    }
+                },
+                "slices": [
+                    {
+                        "sliceFilter": {
+                            "cabinClasses": [],
+                            "carrier": {
+                                "exclude": [],
+                                "preferred": []
+                            }
+                        }
+                    }
+                ],
+                "itineraryFilter": {
+                    "hackerFareEnabled": true,
+                    "cabinClass": "Economy"
+                },
+                "sort": {
+                    "sortBy": "Price"
+                },
+                "preferredBundleIds": [""]
+            },
+            "whitelabelContext": {
+                "programId": "",
+                "aid": "130589"
+            }
+        }
+    }
+}

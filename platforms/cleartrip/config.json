@@ -1,0 +1,36 @@
+{
+    "url": "https://www.cleartrip.com/flights/v1/calendar/tab/fares",
+    "headers": {
+        "accept": "*/*",
+        "accept-language": "en-US,en;q=0.9,es;q=0.8,pt;q=0.7,hi;q=0.6",
+        "app-agent": "DESKTOP",
+        "channel": "desktop",
+        "content-type": "application/json",
+        "origin": "https://www.cleartrip.com",
+        "referer": "https://www.cleartrip.com/",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "x-client-id": "cleartrip",
+        "x-source-type": "Desktop"
+    },
+    "searchBody": {
+        "fareCalendarType": "CHEAPEST",
+        "paxDetails": {
+            "adult": "1",
+            "child": "0",
+            "infant": "0"
+        },
+        "fareDetails": {
+            "domain": "IN",
+            "cabinType": "ECONOMY",
+            "fareType": "RETAIL",
+            "fareGroup": "REGULAR",
+            "partnerId": "10000000"
+        },
+        "numberOfDays": 57,
+        "journeyType": "ONE_WAY",
+        "departDate": ""
+    }
+}

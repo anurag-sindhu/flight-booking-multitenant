@@ -1,0 +1,33 @@
+{
+    "url": "https://flights-cb.makemytrip.com/api/fareCalendar",
+    "query": {
+        "crId": "3a8d3477-3966-4b1e-b9e7-a3ea96783f5d",
+        "region": "IN",
+        "language": "IN",
+        "currency": "INR"
+    },
+    "headers": {
+        "accept": "application/json",
+        "accept-language": "en-US,en;q=0.9,es;q=0.8,pt;q=0.7,hi;q=0.6",
+        "app-ver": "1.0.0",
+        "currency": "INR",
+        "entity-name": "india",
+        "language": "eng",
+        "lob": "B2C",
+        "origin": "https://www.makemytrip.com",
+        "os": "DESKTOP",
+        "pfm": "DESKTOP",
+        "profile-type": "PERSONAL",
+        "referer": "https://www.makemytrip.com/",
+        "region": "in",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "source": "MMT",
+        "src": "src",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "user-country": "IN",
+        "user-currency": "INR",
+        "authorization": "h4nhc9jcgpAGIjp"
+    }
+}
