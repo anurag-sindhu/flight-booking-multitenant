@@ -7,8 +7,8 @@ const monitor = require("./lib/monitor");
 // Enabled platforms, in poll order. Each module in platforms/ exports fetchMapping(route).
 const platforms = rootConfig.platforms.map(name => ({ name, ...require(`./platforms/${name}`) }));
 
-const MIN_POLL_MINUTES = 5;
-const MAX_POLL_MINUTES = 10;
+const MIN_POLL_MINUTES = 10;
+const MAX_POLL_MINUTES = 15;
 // No polling from quietHours.start to quietHours.end (local hours, start < end; set TZ for the machine).
 const { start: QUIET_START_HOUR, end: QUIET_END_HOUR } = rootConfig.quietHours;
 
