@@ -1,6 +1,6 @@
 # flight-booking-multitenant
 
-Polls flight fare calendars on several booking sites every 5–10 minutes and sends an alert (via the tmrw notifications service) when a tracked flight hits a new low.
+Polls flight fare calendars on several booking sites every 5–10 minutes (pausing during `quietHours`, 1–8 AM by default) and sends an alert (via the tmrw notifications service) when a tracked flight hits a new low.
 
 ## Setup
 
@@ -15,7 +15,7 @@ npm start
 ## Configuration
 
 - **`.env`**: secrets only: the tmrw notifications endpoint and its auth token, the Redis URL, and the session cookies or device IDs for each site.
-- **`config.json`**: which platforms to poll, routes, departure dates, the price cap (`maxTrackedPrice`), Redis TTL, and `notificationChannels` (sent as `channel` to tmrw's `POST /notifications`). A route can be limited to some platforms with `platforms` or `excludePlatforms`.
+- **`config.json`**: which platforms to poll, `quietHours` (local time, so set `TZ`), routes, departure dates, the price cap (`maxTrackedPrice`), Redis TTL, and `notificationChannels` (sent as `channel` to tmrw's `POST /notifications`). A route can be limited to some platforms with `platforms` or `excludePlatforms`.
 - **`platforms/<name>/config.json`**: the request template for each site (URL, headers, query, body).
 
 ## Refreshing cookies
